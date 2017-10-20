@@ -19,7 +19,8 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-#Usage "user@hostname:~ $ sudo python3 PINOUT.py <PIN#> <True 1/False 0>"
+#
+# Usage "user@hostname:~ $ sudo python3 PINOUT.py <PIN#> <True 1/False 0>"
 import sys
 import RPi.GPIO as GPIO
 PIN=int(sys.argv[1])

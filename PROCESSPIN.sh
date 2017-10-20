@@ -26,10 +26,10 @@ do
 	wget -q -N http://192.168.100.10/x/data.dat
 
 	if [ $data -eq 1 ]; then
-		sudo python3 PIN.py 16 1
+		sudo python3 PINOUT.py 16 1
 		echo "turn on the pin"
 	else
-		sudo python3 PIN.py 16 0
+		sudo python3 PINOUT.py 16 0
 		echo "turn off the pin"
 	fi
 done
